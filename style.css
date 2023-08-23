@@ -1,0 +1,35 @@
+/******document******/
+html {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+nav {
+  grid-row-end: span 3;
+}
+nav .feld1 {
+  border: slateblue solid 2px;
+  background-color: indianred;
+}
+nav .feld1 img {
+  width: 150px;
+}
+nav .feld2 {
+  border: seagreen solid 2px;
+  background-color: lightblue;
+}
+nav .feld2 img {
+  width: 150px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: deepskyblue;
+}

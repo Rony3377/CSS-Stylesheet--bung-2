@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+  /*****main*******/
+  main {
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: yellow;
+  }
+  main .feld3 img,
+  main .feld4 img {
+    width: 100px;
+  }
+  footer {
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: yellowgreen;
+  }
+}

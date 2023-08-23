@@ -1,0 +1,35 @@
+@media screen and (min-width: 800px) {
+  /* main */
+  main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: gainsboro;
+  }
+  main img {
+    width: 200px;
+  }
+  main .feld3 {
+    padding: 4px;
+    border: steelblue solid 3px;
+    grid-column-start: 1;
+  }
+  main .feld4 {
+    padding: 4px;
+    border: indianred solid 3px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  footer .feld5 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 2px;
+    border: sienna solid 2px;
+  }
+  footer div {
+    border: teal solid 1px;
+    background-color: turquoise;
+  }
+  footer img {
+    border: teal solid 130px;
+  }
+}
